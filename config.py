@@ -33,10 +33,14 @@ CHANNEL = os.environ.get("CHANNEL", "Lunatic0de")
 GROUP = os.environ.get("GROUP", "SharingUserbot")
 
 # ID dari Channel Atau Group Untuk Wajib Subscribenya
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
-FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "0"))
+FORCE_SUB_CHANNEL  = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
+FORCE_SUB_CHANNEL1 = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
+FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
+FORCE_SUB_GROUP    = int(os.environ.get("FORCE_SUB_GROUP", "0"))
+FORCE_SUB_GROUP1   = int(os.environ.get("FORCE_SUB_GROUP1", "0")
+FORCE_SUB_GROUP2   = int(os.environ.get("FORCE_SUB_GROUP2", "0"))
 
-TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
+TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "6"))
 
 # Pesan Awalan /start
 START_MSG = os.environ.get(
